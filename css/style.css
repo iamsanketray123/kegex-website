@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #080C10;
-    --surface-color: #101820;
-    --accent-color: #60A5FA;
-    --secondary-color: #22C55E;
-    --text-primary: #FFFFFF;
-    --text-secondary: #8A95A8;
-    --glass-border: rgba(255, 255, 255, 0.08);
+    --bg-color: #EFE7D9;
+    --surface-color: #FDFCF8;
+    --accent-color: #F97316;
+    --secondary-color: #D97706;
+    --text-primary: #0F172A;
+    --text-secondary: #8B5E3C;
+    --glass-border: rgba(15, 23, 42, 0.08);
 }
 
 * {
@@ -72,7 +72,7 @@ nav a:hover {
     transform: translateX(-50%);
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(96, 165, 250, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(249, 115, 22, 0.15) 0%, transparent 70%);
     pointer-events: none;
 }
 
@@ -99,13 +99,13 @@ h1 {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.1rem;
-    box-shadow: 0 10px 30px rgba(96, 165, 250, 0.3);
+    box-shadow: 0 10px 30px rgba(249, 115, 22, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(96, 165, 250, 0.4);
+    box-shadow: 0 15px 40px rgba(249, 115, 22, 0.4);
 }
 
 /* Features */
@@ -125,7 +125,7 @@ h1 {
 }
 
 .feature-card:hover {
-    border-color: rgba(96, 165, 250, 0.3);
+    border-color: rgba(249, 115, 22, 0.3);
 }
 
 .feature-card h3 {
